@@ -1,0 +1,19 @@
+{
+  "name": "Telegram Chat Bot",
+  "description": "Simple Telegram bot using python-telegram-bot",
+  "repository": "https://github.com/ifsabhi64/Chat",
+  "keywords": ["telegram", "bot", "python"],
+  "env": {
+    "BOT_TOKEN": {
+      "description": "7671133151:AAHKRUdiSRSHDCZ4OQqETOXpchuGHFqPPcU",
+      "required": true
+    }
+  },
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "basic"
+    }
+  },
+  "stack": "heroku-22"
+}
